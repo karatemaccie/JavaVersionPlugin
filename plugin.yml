@@ -1,0 +1,14 @@
+name: JavaVersion
+main: nl.karatemaccie.javaversion.bukkit.BukkitJavaVersion
+version: 1.0.0
+author: karatemaccie
+commands:
+  javaversion:
+    description: Shows the Java-Version this server is running on.
+    usage: "You did domething very wrong. I dont know what."
+    permission: karatemaccie.javaversion
+    permission-message: "Oops! You can't do that!"
+permissions:
+  karatemaccie.javaversion:
+    description: JavaVersion command.
+    default: op
